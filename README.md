@@ -17,18 +17,17 @@ Both cities are very diverse and are the financial capitals of their respective 
 * geopy  
 ## Steps followed in this project  
 1. **data acquisition** :
-  * source of NEW YORK data https://cocl.us/new_york_dataset    
-  * source of TORONTO data https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M  
+  * NEW YORK data set https://cocl.us/new_york_dataset    
+  * TORONTO data set https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M  
   * Foursquare API was used to get the venue locations to explore neighbourhoods in New York City and Toronto  
 2. **data preprosessing** :  
-  * missing data points were handled carefully  
-  * these two city’s dataframes were concatenated and the Foursquare API calls were made to get top 100 most important venues of each neighbourhood. The venues were grouped by their categories and finally for each neighbourhood top 10 most common venue categories were selected and the final refined cleaned and ready for future analysis dataset is formed.  
+  * Cities' dataframes were concatenated and the Foursquare API calls were made to get top most 100 important venues of each neighbourhood. The venues were grouped by their categories and the top most 10 common venue categories were selected for each neighbourhood.  
   final data set  
   ![final data set](https://github.com/ritz96-art/clustering_neighborhoods/blob/master/project1.JPG?raw=true)
 3. **modelling** :  
-  * K means clustering algorithm was used with an assumed K value  
+  * K means clustering algorithm was used with any arbitary value of K  
 4. **data visualization**  
-  * clusters of neighborhoods were marked in map using *folium* library   
+  * clusters of neighbourhoods were marked in map using *folium* library   
   NEW YORK neighborhood cluster map  
   ![](https://github.com/ritz96-art/clustering_neighborhoods/blob/master/project2.jpg?raw=true)  
   TORONTO neighborhood cluster map  
