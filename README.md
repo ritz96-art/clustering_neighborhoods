@@ -20,15 +20,15 @@ Both cities are very diverse and are the financial capitals of their respective 
   * TORONTO data set https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M  
   * Foursquare API was used to get the venue locations to explore neighbourhoods in New York City and Toronto  
 ## Data Preprosessing  
-  Cities' dataframes were concatenated and the Foursquare API calls were made to get top most 100 important venues of each neighbourhood. The venues were grouped by their categories and the top most 10 common venue categories were selected for each neighbourhood.
+  Cities' dataframes were concatenated and the Foursquare API calls were made to get top most 100 important venues of each neighbourhood. The neighborhoods were grouped by their venue categories and the top most 10 common venue categories were selected for each neighbourhood.
   
   final data set  
-  ![final data set](https://github.com/ritz96-art/clustering_neighborhoods/blob/master/project1.JPG?raw=true)
+  ![final data set](https://github.com/ritz96-art/clustering_neighborhoods/blob/master/out/project1.JPG)
 ## Modelling  
   * K means clustering algorithm was used with any arbitary value of K  
 ## Data Visualization  
   * clusters of neighbourhoods were marked in map using *folium* library   
   NEW YORK neighborhood cluster map  
-  ![](https://github.com/ritz96-art/clustering_neighborhoods/blob/master/project2.jpg?raw=true)  
+  ![](https://github.com/ritz96-art/clustering_neighborhoods/blob/master/out/project2.jpg)  
   TORONTO neighborhood cluster map  
-  ![](https://github.com/ritz96-art/clustering_neighborhoods/blob/master/project3.jpg?raw=true)  
+  ![](https://github.com/ritz96-art/clustering_neighborhoods/blob/master/out/project3.jpg)  
