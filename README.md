@@ -14,19 +14,19 @@ Both cities are very diverse and are the financial capitals of their respective 
 * matplotlib  
 * sklearn  
 * folium  
-* geopy  
-## Steps followed in this project  
-1. **data acquisition** :
+* geopy   
+## Data Acquisition
   * NEW YORK data set https://cocl.us/new_york_dataset    
   * TORONTO data set https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M  
   * Foursquare API was used to get the venue locations to explore neighbourhoods in New York City and Toronto  
-2. **data preprosessing** :  
-  * Cities' dataframes were concatenated and the Foursquare API calls were made to get top most 100 important venues of each neighbourhood. The venues were grouped by their categories and the top most 10 common venue categories were selected for each neighbourhood.  
+## Data Preprosessing  
+  * Cities' dataframes were concatenated and the Foursquare API calls were made to get top most 100 important venues of each neighbourhood. The venues were grouped by their categories and the top most 10 common venue categories were selected for each neighbourhood.
+  
   final data set  
   ![final data set](https://github.com/ritz96-art/clustering_neighborhoods/blob/master/project1.JPG?raw=true)
-3. **modelling** :  
+## Modelling  
   * K means clustering algorithm was used with any arbitary value of K  
-4. **data visualization**  
+## Data Visualization  
   * clusters of neighbourhoods were marked in map using *folium* library   
   NEW YORK neighborhood cluster map  
   ![](https://github.com/ritz96-art/clustering_neighborhoods/blob/master/project2.jpg?raw=true)  
