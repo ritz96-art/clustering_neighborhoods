@@ -32,4 +32,3 @@ Both cities are very diverse and are the financial capitals of their respective 
   ![](https://github.com/ritz96-art/clustering_neighborhoods/blob/master/project2.jpg?raw=true)  
   TORONTO neighborhood cluster map  
   ![](https://github.com/ritz96-art/clustering_neighborhoods/blob/master/project3.jpg?raw=true)  
-5. **result and conclusion**
