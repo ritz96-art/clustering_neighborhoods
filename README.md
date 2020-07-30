@@ -23,12 +23,12 @@ Both cities are very diverse and are the financial capitals of their respective 
   Cities' dataframes were concatenated and the Foursquare API calls were made to get top most 100 important venues of each neighbourhood. The neighborhoods were grouped by their venue categories and the top most 10 common venue categories were selected for each neighbourhood.
   
   final data set  
-  ![final data set](https://github.com/ritz96-art/clustering_neighborhoods/blob/master/out/project1.JPG)
+  ![final data set](https://github.com/ritz96-art/clustering_neighborhoods/blob/master/out/dataset.JPG)
 ## Modelling  
   * K means clustering algorithm was used with any arbitary value of K  
 ## Data Visualization  
   * clusters of neighbourhoods were marked in map using *folium* library   
   NEW YORK neighborhood cluster map  
-  ![](https://github.com/ritz96-art/clustering_neighborhoods/blob/master/out/project2.jpg)  
+  ![](https://github.com/ritz96-art/clustering_neighborhoods/blob/master/out/new_york_map.jpg)  
   TORONTO neighborhood cluster map  
-  ![](https://github.com/ritz96-art/clustering_neighborhoods/blob/master/out/project3.jpg)  
+  ![](https://github.com/ritz96-art/clustering_neighborhoods/blob/master/out/toronto_map.jpg)  
