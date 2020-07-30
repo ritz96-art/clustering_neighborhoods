@@ -29,6 +29,6 @@ Both cities are very diverse and are the financial capitals of their respective 
 ## Data Visualization  
   * clusters of neighbourhoods were marked in map using *folium* library   
   NEW YORK neighborhood cluster map  
-  ![](https://github.com/ritz96-art/clustering_neighborhoods/blob/master/out/new_york_map.jpg)  
+  ![](https://github.com/ritz96-art/clustering_neighborhoods/blob/master/out/new_york_map.JPG)  
   TORONTO neighborhood cluster map  
-  ![](https://github.com/ritz96-art/clustering_neighborhoods/blob/master/out/toronto_map.jpg)  
+  ![](https://github.com/ritz96-art/clustering_neighborhoods/blob/master/out/toronto_map.JPG)  
